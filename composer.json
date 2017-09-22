@@ -47,7 +47,6 @@
         "symfony/twig-bundle": "<3.3",
         "symfony/debug": "<3.3"
     },
-    "minimum-stability": "dev",
     "extra": {
         "symfony": {
             "id": "01BTHPWJ7QA95RNW5A9VTYXJYM",
