@@ -22,6 +22,6 @@ return function(ContainerConfigurator $configurator) {
         ->public();
 
     $configurator->services()->set(CustomDb::class)
-        ->arg('$host', '%db_host')
-        ->arg('$port', '%db_port');
+        ->arg('$host', '%db_host%')
+        ->arg('$port', '%db_port%');
 };
